@@ -152,7 +152,7 @@ export class Motion<T extends MotionGoal = number> {
   destroy(): void {}
 }
 
-function createMotion<T extends MotionGoal>(
+export function createMotion<T extends MotionGoal>(
   initialValue: T,
   options?: MotionOptions
 ): Motion<T> {
