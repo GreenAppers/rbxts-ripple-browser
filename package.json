@@ -20,16 +20,18 @@
     "prepublishOnly": "tsc"
   },
   "peerDependencies": {
+    "@rbxts/react": "*",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "typescript": "^5",
+    "@rbxts/react": "git+https://github.com/GreenAppers/rbxts-react-browser.git",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "eslint-config-next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "typescript": "^5"
   }
 }
